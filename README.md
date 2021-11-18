@@ -34,7 +34,7 @@ import { AlertModule } from 'ngx-alerts';
     BrowserModule,
 
     // Specify your library as an import
-    AlertModule.forRoot({maxMessages: 5, timeout: 5000, position: 'right'})
+    AlertModule.forRoot({maxMessages: 5, timeout: 5000, positionX: 'right'})
   ],
   providers: [],
   bootstrap: [AppComponent]
